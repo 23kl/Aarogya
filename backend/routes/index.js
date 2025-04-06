@@ -6,4 +6,4 @@ const router =express.Router()
 router.use("/patient",patientRouter)
 router.use("/admin",adminRouter)
 
-module.export=router
+module.exports=router
