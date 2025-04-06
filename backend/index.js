@@ -3,6 +3,7 @@ const app=express()
 const router=require("./routes/index")
 const port=3000
 const cors=require("cors")
+const mongoose=require("mongoose")
 
 app.use(cors())
 app.use(express.json())
